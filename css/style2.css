@@ -17,6 +17,7 @@
     width: auto;
     color: #d3ecf1;
     background-image: linear-gradient(180deg, #080633, #150b81);
+    background-attachment: fixed;
   }
   
   h1 {

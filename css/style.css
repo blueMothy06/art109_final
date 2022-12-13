@@ -52,7 +52,6 @@
     color: orange;
   }
   
-  
   ul {
     list-style: none;
     text-align: center;
@@ -86,7 +85,7 @@
   }
   
   .navbar a {
-    float: left;
+    float: right;
     display: block;
     color:#d62b90;
     text-align: center;
@@ -102,8 +101,46 @@
   .main {
     padding: 16px;
     margin-top: 30px;
-    height: 1500px; /* Used in this example to enable scrolling */
   }  
+
+  #logo{
+    position:absolute;
+    top:20px; 
+    left:100px;
+    width:200px;
+    height:50px;
+    overflow:hidden;
+}
+
+#logo {
+  animation: wiggle 2s linear;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
 
   footer {
     margin: auto;
