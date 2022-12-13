@@ -1,0 +1,123 @@
+/* @font-face {
+    font-family: Varela Round;
+    src: url(VarelaRound-Regular.ttf);
+  } */
+  
+  @font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Lato' rel='stylesheet");
+  
+  html {
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    font-family: 'Lato';
+    width: auto;
+    color: #c044a3;
+    background-color: #3c0437;
+    /* background-image: linear-gradient(180deg, #2d043c, #d3297b);
+     background-attachment: fixed; */
+  }
+  
+  h1 {
+    color: #ff2374;
+    font-size: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  h2 {
+    color: #fdafcb;
+    font-size: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: normal;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 1.4;
+  }
+  
+  a {
+    color: #d62b90;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: orange;
+  }
+  
+  
+  ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 10%;
+    padding-top: 20px;
+    margin-top: 0px;
+  }
+  
+  li{
+    list-style-image: url(./assets/bullet.webp);
+    margin-left: 10%;
+    font-size: 18px;
+    
+  }
+  
+  ::selection {
+    color: #2d043c;
+    background: #ff2374;
+  }
+  
+  .active {
+    color: orange;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #3c0437;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color:#d62b90;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    color:orange;
+  }
+
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }  
+
+  footer {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 5%;
+    margin-bottom: 50px;
+    /* color:#2d043c; */
+  }
+
+  
+  /**mobile friendly*/
+  @media screen and (max-width: 800px) {
+ 
+  }
+  
