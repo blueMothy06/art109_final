@@ -6,7 +6,7 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="icon" href="assets/favicon.png">
+  <link rel="icon" href="../assets/favicon.png">
   <title>Anglerfish Inc.</title>
   <style>
     body {
@@ -23,18 +23,36 @@
         <a href="../pages/products.html">products</a>
         <a href="../pages/contact.html">contact</a> 
         <a href="../index.html">home</a> 
-      </ul>
+     <li><a href="../index.html"><img src="../assets/logo.png" id = "logo"></a></li>
     </nav>
   </div>
+<div class="main">
   <main>
-    <h1>contact!</h1>
     <p>
         Want to reach us? So do we!
         <br>
         <br>
-        
+        Toss your hat into the ring and see if anyone in this godforsaken company will ever respond back to you!
+      </p>  
+      <div class="contact-box">
+        <h2>Submission Form</h2>
+       <p>   
+        <form>
+          <input type = "text" class = "input-field" placeholder="Name">
+          <input type = "text" class = "input-field" placeholder="Address">
+          <input type = "text" class = "input-field" placeholder="Social Security">
+          <button type="button" class="btn" onclick="myFunction()">Submit or perish</button>
+        </form>
+      </div>
     </p>
   </main>
+</div>
+
+<script>
+  function myFunction() {
+    alert("Error#1379: Too many requests! Try again later! ;P");
+  }
+  </script>
 
   <footer>
     © Anglerfish Inc. 2022

@@ -1,19 +1,19 @@
-/* @font-face {
+@font-face {
     font-family: Varela Round;
     src: url(VarelaRound-Regular.ttf);
-  } */
-  
+  }
+/*   
   @font-face {
     font-family: Lato;
     src: url(Lato-Regular.ttf);
-  }
+  } */
   
-  @import url("https://fonts.googleapis.com/css?family=Lato' rel='stylesheet");
+  @import url("https://fonts.googleapis.com/css?family=Varela-Round' rel='stylesheet");
   
   html {
     /* margin-left: 10%;
     margin-right: 10%; */
-    font-family: 'Lato';
+    font-family: 'Varela Round', sans-serif;
     width: auto;
     color: #c044a3;
     background-color: #3c0437;
@@ -57,11 +57,12 @@
     text-align: center;
     padding-right: 10%;
     padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 0px;
   }
   
   li{
-    list-style-image: url(./assets/bullet.webp);
+    /* list-style-image: url(./assets/bullet.webp); */
     margin-left: 10%;
     font-size: 18px;
     
@@ -141,6 +142,66 @@
   }
 }
 
+.side-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  /* margin-right: auto; */
+  /* background-color: #2d043c; */
+   width:90%;
+  padding-top: 10%; 
+  padding-left: 50px; 
+}
+
+.side1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+form {
+  margin: 35px;
+}
+
+.contact-box {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 500px;
+  border: 1px dotted;
+  border-color: #d62b90;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  border-radius: 14px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
+  border-radius: 14px;
+  outline:none;
+}
+
+.textarea-field
+{
+  height: 150px;
+  padding-top: 10px;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #3c0437;
+  font-size: 12px;
+  border-color: #d62b90;
+}
 
   footer {
     margin: auto;
